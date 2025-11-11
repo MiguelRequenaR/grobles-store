@@ -45,7 +45,7 @@ export default function CardTemplate() {
               </div>
               <div className="flex items-center justify-between">
                 <h2 className="text-white text-2xl font-bold group-hover:text-secondary transition-colors duration-300">{template.name}</h2>
-                <span className="text-white text-xl font-bold bg-primary border border-white px-2 py-1 rounded-full group-hover:bg-secondary transition-colors duration-300">S/.{template.price}</span>
+                <span className="text-white text-xl font-bold bg-primary border border-white px-2 py-1 rounded-full group-hover:border-secondary group-hover:text-secondary transition-colors duration-300">S/.{template.price}</span>
               </div>
               <p 
               className="text-white text-lg">{template.description}</p>
