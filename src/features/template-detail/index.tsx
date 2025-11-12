@@ -1,7 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import Template1 from "@/assets/images/trestaurante.png";
-import Template2 from "@/assets/images/ttransporte.png";
+import Template1Desktop from "@/assets/images/re1.jpg";
+import Template1Mobile from "@/assets/images/re2.jpg";
+import Template2Desktop from "@/assets/images/tra1.jpg";
+import Template2Mobile from "@/assets/images/tra2.jpg";
 
 const templates = [
   {
@@ -10,7 +12,8 @@ const templates = [
     price: 300,
     description: "Página de destino para restaurantes",
     fullDescription: "Template profesional diseñado específicamente para restaurantes modernos. Incluye secciones para menú, reservas, galería de fotos y testimonios de clientes.",
-    image: Template1,
+    imageDesktop: Template1Desktop,
+    imageMobile: Template1Mobile,
     infoTemplate: "Foodie es un template profesional diseñado específicamente para restaurantes modernos. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",
     previewUrl: "https://restaurante-app-woad.vercel.app/",
     useCases: ["Restaurante", "Café", "Bar", "Comida rápida"],
@@ -21,8 +24,9 @@ const templates = [
     price: 300,
     description: "Página de destino para empresas de transporte",
     fullDescription: "Template completo para empresas de transporte y logística. Diseño profesional con secciones para servicios, flota, cotizaciones y seguimiento de envíos.",
+    imageDesktop: Template2Desktop,
+    imageMobile: Template2Mobile,
     infoTemplate: "Grupo HC es un template profesional diseñado específicamente para empresas de transporte y logística. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",
-    image: Template2,
     previewUrl: "https://transporte-app-eta.vercel.app/",
     useCases: ["Transporte", "Logística", "Envíos", "Carga"],
   }
@@ -66,7 +70,7 @@ export default function TemplateDetail() {
               data-aos="fade-right"
             >
               <img
-                src={template.image}
+                src={template.imageDesktop}
                 alt={template.name}
                 className="w-full rounded-2xl shadow-2xl"
               />
@@ -74,17 +78,15 @@ export default function TemplateDetail() {
 
             {/* Imagen móvil */}
             <div
-              className="rounded-3xl overflow-hidden border border-white/20 bg-linear-to-br from-gray-900 to-black p-8 flex items-center justify-center"
+              className="rounded-3xl overflow-hidden border border-white/20 bg-linear-to-br from-gray-900 to-black p-8"
               data-aos="fade-right"
               data-aos-delay="100"
             >
-              <div className="max-w-xs mx-auto">
-                <img
-                  src={template.image}
-                  alt={`${template.name} - Vista móvil`}
-                  className="w-full rounded-2xl shadow-2xl"
-                />
-              </div>
+              <img
+                src={template.imageMobile}
+                alt={`${template.name} - Vista móvil`}
+                className="w-full rounded-2xl shadow-2xl"
+              />
             </div>
             {/* Información adicional */}
             <div className="bg-primary border border-white/30 rounded-3xl p-6 space-y-3">
