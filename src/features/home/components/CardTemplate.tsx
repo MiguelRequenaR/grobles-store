@@ -6,14 +6,14 @@ const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 400,
+    price: 300,
     description: "Template para restaurantes, con un diseño moderno y diversas secciones.",
     image: Template1,
   },
   {
     id: 2,
     name: "Grupo HC - Transporte",
-    price: 400,
+    price: 300,
     description: "Template para transportes, con un diseño moderno y diversas secciones.",
     image: Template2,
   }

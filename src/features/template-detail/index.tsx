@@ -7,7 +7,7 @@ const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 400,
+    price: 300,
     description: "Página de destino para restaurantes",
     fullDescription: "Template profesional diseñado específicamente para restaurantes modernos. Incluye secciones para menú, reservas, galería de fotos y testimonios de clientes.",
     image: Template1,
@@ -18,7 +18,7 @@ const templates = [
   {
     id: 2,
     name: "Grupo HC - Transporte",
-    price: 400,
+    price: 300,
     description: "Página de destino para empresas de transporte",
     fullDescription: "Template completo para empresas de transporte y logística. Diseño profesional con secciones para servicios, flota, cotizaciones y seguimiento de envíos.",
     infoTemplate: "Grupo HC es un template profesional diseñado específicamente para empresas de transporte y logística. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",

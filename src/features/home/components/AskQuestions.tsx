@@ -29,7 +29,7 @@ const questions = [
   },
   {
     id: 6,
-    question: "¿Bridan soporte después de la compra?",
+    question: "¿Brindan soporte después de la compra?",
     answer: "Si, ofrecemos soporte para consultas relacionadas con las plantillas. Póngase en contacto con nuestro equipo de soporte si tiene alguna pregunta o encuentra problemas.",
   },
   {

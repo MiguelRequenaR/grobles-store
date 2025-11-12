@@ -1,5 +1,55 @@
+import { useNavigate } from "react-router-dom"
 
 export default function Fotter() {
+  const navigate = useNavigate();
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleNavigateToAbout = () => {
+    if (window.location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById('about');
+        if (element) {
+          const navbarHeight = 100;
+          const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition - navbarHeight;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById('about');
+      if (element) {
+        const navbarHeight = 100;
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - navbarHeight;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+  };
+
+  const handleNavigateToHome = () => {
+    if (window.location.pathname === '/') {
+      scrollToTop();
+    } else {
+      navigate('/');
+    }
+  };
+
+  const handleNavigateToContact = () => {
+    navigate('/contacto');
+  }
+
   return (
     <footer
     className="bg-primary m-3 md:m-10 py-20 rounded-3xl">
@@ -17,22 +67,21 @@ export default function Fotter() {
           <h2
           className="text-white text-2xl font-bold text-center">Enlaces</h2>
           <ul
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-secondary px-5 py-3 rounded-3xl mt-5 font-bold">
+          className="grid grid-cols-2 md:grid-cols-3 gap-4 bg-secondary px-5 py-3 rounded-3xl mt-5 font-bold">
             <li
-            className="hover:text-white hover:bg-primary px-2 py-1 rounded-full transition-all duration-500 text-center">
-              <a href="/">Templates</a>
+            className="hover:text-white hover:bg-primary px-2 py-1 rounded-full transition-all duration-500 text-center cursor-pointer"
+            onClick={handleNavigateToHome}>
+              Templates
             </li>
             <li
-            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center">
-              <a href="#">Nosotros</a>
+            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer"
+            onClick={handleNavigateToAbout}>
+              Nosotros
             </li>
             <li
-            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center">
-              <a href="#">Ayuda</a>
-            </li>
-            <li
-            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center">
-              <a href="#">Contacto</a>
+            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer"
+            onClick={handleNavigateToContact}>
+              Contacto
             </li>
           </ul>
         </div>
