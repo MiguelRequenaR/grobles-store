@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink } from "lucide-react";
+import { whatsappBuy } from "@/utils/whatsappMessage";
 import Template1Desktop from "@/assets/images/re1.jpg";
 import Template1Mobile from "@/assets/images/re2.jpg";
 import Template2Desktop from "@/assets/images/tra1.jpg";
@@ -9,7 +10,7 @@ const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 300,
+    price: 350,
     description: "Página de destino para restaurantes",
     fullDescription: "Template profesional diseñado específicamente para restaurantes modernos. Incluye secciones para menú, reservas, galería de fotos y testimonios de clientes.",
     imageDesktop: Template1Desktop,
@@ -35,6 +36,16 @@ const templates = [
 export default function TemplateDetail() {
   const { id } = useParams();
   const template = templates.find(t => t.id === Number(id));
+
+  const handleBuyClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    if (template) {
+      whatsappBuy({
+        templateName: template.name,
+        message: "",
+      });
+    }
+  };
 
   if (!template) {
     return (
@@ -105,12 +116,12 @@ export default function TemplateDetail() {
                   <ExternalLink className="w-5 h-5" />
                 </a>
 
-                <Link
-                  to="/contacto"
-                  className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-lg"
+                <button
+                  onClick={handleBuyClick}
+                  className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-lg cursor-pointer"
                 >
                   Comprar ahora - S/.{template.price}
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -151,12 +162,12 @@ export default function TemplateDetail() {
                 <ExternalLink className="w-5 h-5" />
               </a>
 
-              <Link
-                to="/contacto"
-                className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-lg"
+              <button
+                onClick={handleBuyClick}
+                className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-lg cursor-pointer"
               >
                 Comprar ahora - S/.{template.price}
-              </Link>
+              </button>
             </div>
 
             {/* Caso de uso */}

@@ -6,7 +6,7 @@ const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 300,
+    price: 350,
     description: "Template para restaurantes, con un diseño moderno y diversas secciones.",
     image: Template1,
   },

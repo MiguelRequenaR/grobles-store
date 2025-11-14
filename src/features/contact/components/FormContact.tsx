@@ -1,6 +1,20 @@
 import { Mail, Phone } from "lucide-react"
+import { whatsappForm } from "@/utils/whatsappMessage"
 
 export default function FormContact() {
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+    const form = {
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      message: formData.get('message') as string,
+    }
+    whatsappForm(form);
+    e.currentTarget.reset();
+  }
   return (
     <main className="py-20 px-4 md:px-0 max-w-2xl mx-auto">
       {/* Encabezado */}
@@ -47,7 +61,9 @@ export default function FormContact() {
         </div>
       </div>
 
-      <form action="" className="flex flex-col gap-6 bg-black/60 rounded-2xl p-8 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+      <form 
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-6 bg-black/60 rounded-2xl p-8 shadow-xl" data-aos="fade-up" data-aos-delay="200">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col gap-1 flex-1">
             <label htmlFor="name" className="font-semibold text-white mb-1">
@@ -92,7 +108,7 @@ export default function FormContact() {
         </div>
         <button
           type="submit"
-          className="mt-3 bg-secondary hover:bg-secondary/80 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 text-lg tracking-wide uppercase"
+          className="mt-3 bg-secondary hover:bg-transparent hover:text-secondary border border-secondary text-primary font-light py-3 px-6 rounded-full shadow-lg transition-all duration-300 text-lg tracking-wide uppercase cursor-pointer"
         >
           Enviar mensaje
         </button>
