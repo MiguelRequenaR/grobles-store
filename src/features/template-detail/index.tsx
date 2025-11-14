@@ -105,24 +105,6 @@ export default function TemplateDetail() {
               <p className="text-gray-300 text-lg leading-relaxed">
                 {template.infoTemplate}
               </p>
-              <div className="space-y-4 flex flex-col">
-                <a
-                  href={template.previewUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full bg-transparent border-2 border-white text-white px-6 py-4 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-semibold text-lg"
-                >
-                  Vista previa en vivo
-                  <ExternalLink className="w-5 h-5" />
-                </a>
-
-                <button
-                  onClick={handleBuyClick}
-                  className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-lg cursor-pointer"
-                >
-                  Comprar ahora - S/.{template.price}
-                </button>
-              </div>
             </div>
           </div>
 
