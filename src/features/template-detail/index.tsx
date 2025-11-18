@@ -5,6 +5,8 @@ import Template1Desktop from "@/assets/images/re1.jpg";
 import Template1Mobile from "@/assets/images/re2.jpg";
 import Template2Desktop from "@/assets/images/tra1.jpg";
 import Template2Mobile from "@/assets/images/tra2.jpg";
+import Template3Desktop from "@/assets/images/ho1.jpg";
+import Template3Mobile from "@/assets/images/ho2.jpg";
 
 const templates = [
   {
@@ -30,6 +32,18 @@ const templates = [
     infoTemplate: "Grupo HC es un template profesional diseñado específicamente para empresas de transporte y logística. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",
     previewUrl: "https://transporte-app-eta.vercel.app/",
     useCases: ["Transporte", "Logística", "Envíos", "Carga"],
+  },
+  {
+    id: 3,
+    name: "Oz Resort",
+    price: 350,
+    description: "Página de destino para hoteles",
+    fullDescription: "Template completo para hoteles y alojamientos. Diseño profesional con secciones para servicios, habitaciones y reservas en línea.",
+    imageDesktop: Template3Desktop,
+    imageMobile: Template3Mobile,
+    infoTemplate: "Oz Resort es un template profesional diseñado específicamente para hoteles. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",
+    previewUrl: "https://oz-resort.vercel.app/",
+    useCases: ["Hotel", "Alojamiento", "Turismo", "Reservas"],
   }
 ];
 
@@ -77,7 +91,7 @@ export default function TemplateDetail() {
           <div className="space-y-8">
             {/* Imagen principal - Desktop */}
             <div
-              className="rounded-3xl overflow-hidden border border-white/20 bg-linear-to-br from-gray-900 to-black p-8"
+              className="rounded-3xl overflow-hidden"
               data-aos="fade-right"
             >
               <img
@@ -89,7 +103,7 @@ export default function TemplateDetail() {
 
             {/* Imagen móvil */}
             <div
-              className="rounded-3xl overflow-hidden border border-white/20 bg-linear-to-br from-gray-900 to-black p-8"
+              className="rounded-3xl overflow-hidden"
               data-aos="fade-right"
               data-aos-delay="100"
             >

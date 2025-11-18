@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import Template1 from "@/assets/images/trestaurante.png"
 import Template2 from "@/assets/images/ttransporte.png"
+import Template3 from "@/assets/images/thotel.jpg"
 
 const templates = [
   {
@@ -16,6 +17,13 @@ const templates = [
     price: 300,
     description: "Template para transportes, con un diseño moderno y diversas secciones.",
     image: Template2,
+  },
+  {
+    id: 3,
+    name: "Hotel - Hotel",
+    price: 350,
+    description: "Template para hoteles, con un diseño moderno y diversas secciones.",
+    image: Template3,
   }
 ]
 
