@@ -20,7 +20,7 @@ const templates = [
   },
   {
     id: 3,
-    name: "Hotel - Hotel",
+    name: "Oz Resort - Hotel",
     price: 350,
     description: "Template para hoteles, con un diseño moderno y diversas secciones.",
     image: Template3,
