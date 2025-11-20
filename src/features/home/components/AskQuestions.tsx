@@ -4,43 +4,43 @@ import { ChevronDown } from 'lucide-react'
 const questions = [
   {
     id: 1,
-    question: "¿Qué sucede después de comprar una plantilla?",
-    answer: "Después de comprar una plantillas, recibirás un enlace del repositorio de Github. A continuación un miembro del equipo te ayudará con la personalización de la plantilla, en base a tus requerimientos.",
+    question: "¿Qué sucede después de comprar un sitio web?",
+    answer: "Después de comprar un sitio web, recibirás un enlace del repositorio de Github. A continuación un miembro del equipo te ayudará con la personalización del sitio web, en base a tus requerimientos.",
   },
   {
     id: 2,
-    question: "¿Cómo compro una plantilla?",
+    question: "¿Cómo compro un sitio web?",
     answer: "Para realizar una compra, visite nuestro sitio web, seleccione la plantilla que desea comprar y proceda con el pago. Sigue las indicaciones para completar la compra.",
   },
   {
     id: 3,
-    question: "¿Con qué frecuencia lanzan nuevas plantillas?",
-    answer: "Lanzamos nuevas plantillas periódicamente, generalmente cada 4 días o 1 semana, para garantizar que nuestra colección se mantenga actualizada y diversificada.",
+    question: "¿Con qué frecuencia lanzan nuevos sitios web?",
+    answer: "Lanzamos nuevos sitios web periódicamente, generalmente cada 4 días o 1 semana, para garantizar que nuestra colección se mantenga actualizada y diversificada.",
   },
   {
     id: 4,
-    question: "¿Todas sus plantillas son responsivas?",
-    answer: "Sí, todas nuestras plantillas son responsivas, lo que significa que se adaptan automáticamente a diferentes tamaños de pantalla, incluyendo smartphones, tablets y computadoras de escritorio.",
+    question: "¿Todas sus sitios web son responsivas?",
+    answer: "Sí, todas nuestros sitios web son responsivos, lo que significa que se adaptan automáticamente a diferentes tamaños de pantalla, incluyendo smartphones, tablets y computadoras de escritorio.",
   },
   {
     id: 5,
-    question: "¿Puedo personalizar la plantilla?",
-    answer: "Si, la plantilla se puede personalizar según tus necesidades, para ello, contamos con un equipo de desarrollo que te ayudará con la personalización de la plantilla, en base a tus requerimientos.",
+    question: "¿Puedo personalizar el sitio web?",
+    answer: "Si, el sitio web se puede personalizar según tus necesidades, para ello, contamos con un equipo de desarrollo que te ayudará con la personalización del sitio web, en base a tus requerimientos.",
   },
   {
     id: 6,
     question: "¿Brindan soporte después de la compra?",
-    answer: "Si, ofrecemos soporte para consultas relacionadas con las plantillas. Póngase en contacto con nuestro equipo de soporte si tiene alguna pregunta o encuentra problemas.",
+    answer: "Si, ofrecemos soporte para consultas relacionadas con los sitios web. Póngase en contacto con nuestro equipo de soporte si tiene alguna pregunta o encuentra problemas.",
   },
   {
     id: 7,
-    question: "¿Puedo usar la plantilla para varios proyectos?",
-    answer: "Si, la plantilla se puede usar para varios proyectos.",
+    question: "¿Puedo usar el sitio web para varios proyectos?",
+    answer: "Si, el sitio web se puede usar para varios proyectos.",
   },
   {
     id: 8,
     question: "¿Cuál es su política de garantía de devolución dinero/reembolso?",
-    answer: "No tenemos política de devolución de dinero/reembolso, ya que las plantillas son digitales y no se pueden devolver.",
+    answer: "No tenemos política de devolución de dinero/reembolso, ya que los sitios son digitales y no se pueden devolver.",
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ export default function AskQuestions() {
             className="text-white text-3xl md:text-4xl font-bold mb-3 md:mb-4 text-center lg:text-left">Preguntas frecuentes</h2>
             <p
             className="text-white text-base md:text-lg text-center lg:text-left">
-              Respuestas a las preguntas más frecuentes sobre nuestras plantillas, servicios y procesos de compra.
+              Respuestas a las preguntas más frecuentes sobre nuestros sitios web, servicios y procesos de compra.
             </p>
           </div>
           <div

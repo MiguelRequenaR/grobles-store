@@ -22,7 +22,7 @@ export default function CallToActionHome() {
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-lg">Lanzamiento de nuevas plantillas</span>
+                className="text-white text-lg">Lanzamiento de nuevas sitios web</span>
               </div>
               <div
               className="flex items-center gap-2">

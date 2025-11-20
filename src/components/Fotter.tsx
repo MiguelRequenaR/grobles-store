@@ -61,7 +61,7 @@ export default function Fotter() {
           className="text-white text-2xl md:text-4xl font-bold">Grobles Store</h1>
         </div>
         <p
-        className="text-white text-center md:text-left md:text-lg">Un rama de Grobles Studio, dedicada a la creación de plantillas de sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
+        className="text-white text-center md:text-left md:text-lg">Un rama de Grobles Studio, dedicada a la creación sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
         <div
         className="pt-5">
           <h2
