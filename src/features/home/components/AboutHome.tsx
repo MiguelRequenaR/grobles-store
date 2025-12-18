@@ -47,7 +47,7 @@ export default function AboutHome() {
             </p>
           </div>
         </div>
-        <a href="https://grobles.netlify.app" data-aos="fade-up">
+        <a href="https://groblestudio.com" data-aos="fade-up">
           <button
             className="bg-primary text-white px-4 py-2 rounded-full mx-auto md:mx-0 border border-white mt-10 flex items-center justify-center gap-2 hover:bg-white hover:text-primary transition-all duration-500 cursor-pointer">
             Somos parte de Grobles Studio

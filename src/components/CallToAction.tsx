@@ -18,7 +18,7 @@ export default function CallToAction() {
           </p>
         </div>
         <div className="w-full md:w-1/3 mt-6 md:mt-0 flex">
-          <a href="https://grobles.netlify.app/contact" className="w-full">
+          <a href="https://www.groblestudio.com/contact" className="w-full">
             <button
               className="bg-white text-primary border border-transparent px-4 py-2 rounded-full cursor-pointer hover:bg-transparent hover:text-white hover:border-white transition-all duration-500 w-full flex items-center justify-center gap-2"
             >

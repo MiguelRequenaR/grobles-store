@@ -95,7 +95,7 @@ export default function Fotter() {
           <div className="text-white text-center md:text-right">
             <span>
               Desarrollado por{" "}
-              <a href="https://grobles.netlify.app" className="underline hover:text-secondary transition-all duration-300">
+              <a href="https://groblestudio.com" className="underline hover:text-secondary transition-all duration-300">
                 <span className="font-bold text-white hover:text-secondary transition-all duration-300">Grobles Studio</span>
               </a>
             </span>
