@@ -5,7 +5,7 @@ export default function HeroHome() {
       className="relative w-full overflow-hidden"
     >
       <div className="max-w-7xl mx-auto h-full">
-        <div className="flex flex-col items-center pt-50 h-full text-center gap-4">
+        <div className="flex flex-col items-center pt-30 md:pt-50 h-full text-center gap-4">
           <h1
           className="text-white text-5xl md:text-8xl font-bold" data-aos="fade-up">
             Presentamos <br /> Grobles - <span

@@ -7,12 +7,14 @@ import Template2Desktop from "@/assets/images/tra1.jpg";
 import Template2Mobile from "@/assets/images/tra2.jpg";
 import Template3Desktop from "@/assets/images/ho1.jpg";
 import Template3Mobile from "@/assets/images/ho2.jpg";
+import Template4Desktop from "@/assets/images/PanaderiaPC.png";
+import Template4Mobile from "@/assets/images/PanaderiaPhone.png"
 
 const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 350,
+    price: 650,
     description: "Página de destino para restaurantes",
     fullDescription: "Template profesional diseñado específicamente para restaurantes modernos. Incluye secciones para menú, reservas, galería de fotos y testimonios de clientes.",
     imageDesktop: Template1Desktop,
@@ -24,7 +26,7 @@ const templates = [
   {
     id: 2,
     name: "Grupo HC - Transporte",
-    price: 300,
+    price: 600,
     description: "Página de destino para empresas de transporte",
     fullDescription: "Template completo para empresas de transporte y logística. Diseño profesional con secciones para servicios, flota, cotizaciones y seguimiento de envíos.",
     imageDesktop: Template2Desktop,
@@ -36,7 +38,7 @@ const templates = [
   {
     id: 3,
     name: "Oz Resort",
-    price: 350,
+    price: 650,
     description: "Página de destino para hoteles",
     fullDescription: "Template completo para hoteles y alojamientos. Diseño profesional con secciones para servicios, habitaciones y reservas en línea.",
     imageDesktop: Template3Desktop,
@@ -44,6 +46,18 @@ const templates = [
     infoTemplate: "Oz Resort es un template profesional diseñado específicamente para hoteles. Combina un diseño moderno y minimalista con una interfaz intuitiva y fácil de usar, y listo para mostrar  los servicios de su marca e impulsarlo en línea.",
     previewUrl: "https://oz-resort.vercel.app/",
     useCases: ["Hotel", "Alojamiento", "Turismo", "Reservas"],
+  },
+  {
+    id: 4,
+    name: "Skippy - Panadería",
+    price: 1200,
+    description: "Sistema Ecommerce para panaderías",
+    fullDescription: "Sistema Ecommerce completo para panaderías. Diseño profesional con secciones completas tipo landing page, y sistema de gestión.",
+    imageDesktop: Template4Desktop,
+    imageMobile: Template4Mobile,
+    infoTemplate: "Sistema Ecommerce  para la gestión de productos y ventas. Con catálogo de productos, carrito de compras, pedidos por whatsapp, barra de busqueda, y landing page incorporada. Para la fácil gestión de su marca.",
+    previewUrl: "https://caramba-panaderia.vercel.app/",
+    useCases : ["Ecommerce", "Panadería", "Gestión de Pedidos", "Gestión de Productos"]
   }
 ];
 

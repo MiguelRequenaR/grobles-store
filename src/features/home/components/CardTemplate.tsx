@@ -2,28 +2,36 @@ import { Link } from "react-router-dom"
 import Template1 from "@/assets/images/trestaurante.png"
 import Template2 from "@/assets/images/ttransporte.png"
 import Template3 from "@/assets/images/thotel.jpg"
+import Template4  from "@/assets/images/Panaderia.png"
 
 const templates = [
   {
     id: 1,
     name: "Foodie - Restaurante",
-    price: 350,
+    price: 650,
     description: "Template para restaurantes, con un diseño moderno y diversas secciones.",
     image: Template1,
   },
   {
     id: 2,
     name: "Grupo HC - Transporte",
-    price: 300,
+    price: 600,
     description: "Template para transportes, con un diseño moderno y diversas secciones.",
     image: Template2,
   },
   {
     id: 3,
     name: "Oz Resort - Hotel",
-    price: 350,
+    price: 650,
     description: "Template para hoteles, con un diseño moderno y diversas secciones.",
     image: Template3,
+  },
+  {
+    id: 4,
+    name: "Skippy - Panadería",
+    price: 1200,
+    description: "Sistema ecommerce, para la gestión de productos y ventas en panaderías.",
+    image: Template4,
   }
 ]
 

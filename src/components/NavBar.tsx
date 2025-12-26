@@ -101,7 +101,7 @@ export default function NavBar() {
           </nav>
           <Link to="/contacto">
             <button
-              className="bg-white border border-transparent uppercase py-2 px-4 rounded-full cursor-pointer font-bold hover:bg-transparent hover:border-secondary hover:text-white transition-all duration-500">
+              className="bg-white border border-transparent uppercase py-2 px-4 rounded-full cursor-pointer font-extralight hover:bg-transparent hover:border-secondary hover:text-white transition-all duration-500">
               Contacto
             </button>
           </Link>
