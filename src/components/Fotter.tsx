@@ -56,7 +56,7 @@ export default function Fotter() {
       <div
       className="flex flex-col gap-4 items-center justify-center">
         <div className="flex items-center gap-2">
-          <img src="/logoG.png" alt="logo" className="w-15 h-15"/>
+          <img src="/logoIconWhite4x4.png" alt="logo" className="w-fit h-10"/>
           <h1
           className="text-white text-2xl md:text-4xl font-bold">Grobles Store</h1>
         </div>
@@ -67,7 +67,7 @@ export default function Fotter() {
           <h2
           className="text-white text-2xl font-bold text-center">Enlaces</h2>
           <ul
-          className="grid grid-cols-2 md:grid-cols-3 gap-4 bg-secondary px-5 py-3 rounded-3xl mt-5 font-bold">
+          className="grid grid-cols-2 md:grid-cols-3 gap-4 bg-secondary px-5 py-3 rounded-3xl mt-5">
             <li
             className="hover:text-white hover:bg-primary px-2 py-1 rounded-full transition-all duration-500 text-center cursor-pointer"
             onClick={handleNavigateToHome}>
