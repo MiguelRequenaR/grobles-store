@@ -56,7 +56,7 @@ export default function Fotter() {
       <div
       className="flex flex-col gap-4 items-center justify-center">
         <div className="flex items-center gap-2">
-          <img src="/logoIconWhite4x4.png" alt="logo" className="w-fit h-10"/>
+          <img src="/logoIconWhite4x4.png" alt="logo" className="md:w-fit h-10"/>
           <h1
           className="text-white text-2xl md:text-4xl font-bold">Grobles Store</h1>
         </div>
