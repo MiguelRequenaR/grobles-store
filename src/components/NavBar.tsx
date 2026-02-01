@@ -75,7 +75,7 @@ export default function NavBar() {
           }}
         >
           <div className="flex items-center gap-2">
-            <img src="/src/assets/images/grobleStoreWhite.png" alt="logo" className="md:w-fit h-12"/>
+            <img src="/grobleStoreWhite.png" alt="logo" className="md:w-fit h-12"/>
           </div>
         </Link>
         
@@ -137,8 +137,7 @@ export default function NavBar() {
             }}
           >
             <div className="flex items-center gap-2">
-              <img src="/logoG.png" alt="logo" className="w-10 h-10" />
-              <h1 className="text-white text-base font-semibold">Grobles - Store</h1>
+              <img src="/grobleStoreWhite.png" alt="logo" className="h-13" />
             </div>
           </Link>
           <button

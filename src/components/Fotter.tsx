@@ -56,7 +56,7 @@ export default function Fotter() {
       <div
       className="flex flex-col gap-4 items-center justify-center">
         <div className="flex items-center gap-2">
-          <img src="/src/assets/images/grobleStoreWhite.png" alt="logo" className="md:w-fit h-20"/>
+          <img src="/grobleStoreWhite.png" alt="logo" className="md:w-fit h-20"/>
         </div>
         <p
         className="text-white text-center md:text-left md:text-lg">Un rama de Grobles Studio, dedicada a la creación sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
