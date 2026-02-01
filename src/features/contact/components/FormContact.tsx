@@ -38,10 +38,10 @@ export default function FormContact() {
           <div>
             <h4 className="text-lg font-bold text-white mb-2">Correo Electrónico</h4>
             <a
-              href="mailto:grobles.dev@gmail.com"
+              href="mailto:contacto@groblestudio.com"
               className="text-gray-200 hover:text-secondary transition-colors duration-300 underline break-all"
             >
-              grobles.dev@gmail.com
+              contacto@groblestudio.com
             </a>
           </div>
         </div>

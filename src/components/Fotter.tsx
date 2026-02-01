@@ -52,13 +52,11 @@ export default function Fotter() {
 
   return (
     <footer
-    className="bg-primary m-3 md:m-10 py-20 rounded-3xl">
+    className="bg-primary m-3 md:m-10 py-15 rounded-3xl">
       <div
       className="flex flex-col gap-4 items-center justify-center">
         <div className="flex items-center gap-2">
-          <img src="/logoIconWhite4x4.png" alt="logo" className="md:w-fit h-10"/>
-          <h1
-          className="text-white text-2xl md:text-4xl font-bold">Grobles Store</h1>
+          <img src="/src/assets/images/grobleStoreWhite.png" alt="logo" className="md:w-fit h-20"/>
         </div>
         <p
         className="text-white text-center md:text-left md:text-lg">Un rama de Grobles Studio, dedicada a la creación sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
