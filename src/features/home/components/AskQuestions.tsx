@@ -79,9 +79,9 @@ export default function AskQuestions() {
           <div
           className="w-full lg:w-1/3 lg:sticky lg:top-40 self-start">
             <h2
-            className="text-white text-3xl md:text-4xl font-bold mb-3 md:mb-4 text-center lg:text-left">Preguntas frecuentes</h2>
+            className="text-white text-3xl font-bold mb-3 md:mb-4 text-center lg:text-left">Preguntas frecuentes</h2>
             <p
-            className="text-white text-base md:text-lg text-center lg:text-left">
+            className="text-white text-base text-center lg:text-left">
               Respuestas a las preguntas más frecuentes sobre nuestros sitios web, servicios y procesos de compra.
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function AskQuestions() {
                     className="w-full p-3 md:p-4 flex items-center justify-between hover:bg-gray-800/50 transition-colors duration-500 ease-out"
                   >
                     <h3
-                    className="text-white text-lg md:text-xl lg:text-2xl font-bold text-left pr-3 md:pr-4">
+                    className="text-white text-lg font-bold text-left pr-3 md:pr-4">
                       {question.question}
                     </h3>
                     <ChevronDown
@@ -124,7 +124,7 @@ export default function AskQuestions() {
                   >
                     <div className="px-3 md:px-4 pb-3 md:pb-4">
                       <hr className="mb-2 md:mb-3 text-gray-400 border-t-2 border-dashed" />
-                      <p className="text-white text-base md:text-lg">
+                      <p className="text-white text-base">
                         {question.answer}
                       </p>
                     </div>

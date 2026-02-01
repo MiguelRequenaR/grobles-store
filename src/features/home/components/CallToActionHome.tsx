@@ -11,9 +11,9 @@ export default function CallToActionHome() {
           <div
           className="space-y-4">
             <h3
-            className="text-white text-3xl font-bold">Manténgase actualizado con nosotros</h3>
+            className="text-white text-2xl font-bold">Manténgase actualizado con nosotros</h3>
             <p
-            className="text-gray-400 text-lg">
+            className="text-gray-400 text-base">
               Forma parte de nuestra comunidad y mantente actualizado con noticias exclusivas.
             </p>
             <div>
@@ -22,21 +22,21 @@ export default function CallToActionHome() {
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-lg">Lanzamiento de nuevas sitios web</span>
+                className="text-white text-base">Lanzamiento de nuevas sitios web</span>
               </div>
               <div
               className="flex items-center gap-2">
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-lg">Descuentos y ofertas</span>
+                className="text-white text-base">Descuentos y ofertas</span>
               </div>
               <div
               className="flex items-center gap-2">
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-lg">Actualizaciones importantes</span>
+                className="text-white text-base">Actualizaciones importantes</span>
               </div>
             </div>
           </div>

@@ -10,10 +10,10 @@ export default function CallToAction() {
           <span className="bg-black text-white px-3 py-2 rounded-full inline-block mx-auto md:mx-0">
             Proyecto personalizado
           </span>
-          <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold pt-4 md:pt-5">
+          <h2 className="text-white text-2xl font-bold pt-4 md:pt-5">
             Construya su sitio web o sistema <br className="hidden md:block" /> web desde cero
           </h2>
-          <p className="text-gray-400 text-base sm:text-lg md:text-lg">
+          <p className="text-gray-400 text-base">
             Cree un sitio web o sistema web único y personalizado con nuestro equipo <br className="hidden md:block" /> de expertos desde cero.
           </p>
         </div>

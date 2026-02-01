@@ -11,38 +11,38 @@ export default function AboutHome() {
           Sobre Nosotros
         </span>
         <h2
-          className="text-white text-2xl md:text-4xl font-bold text-center" data-aos="fade-up" data-aos-delay="100">
+          className="text-white text-3xl font-bold text-center" data-aos="fade-up" data-aos-delay="100">
           Somos una pequeña Startup dedicada al desarrollo de software, <br /> parte de <span className="text-secondary">Grobles Studio</span>
         </h2>
         <div
           className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
           <div className="bg-primary p-10 rounded-3xl border border-white space-y-4" data-aos="fade-up" data-aos-delay="200">
             <h3
-              className="text-white text-2xl font-bold">
+              className="text-white text-xl font-bold">
               Nuestra misión
             </h3>
             <p
-              className="text-white">
+              className="text-white text-sm">
               Nuestra misión es crear software de calidad para nuestros clientes, con un enfoque en la usabilidad y la eficiencia.
             </p>
           </div>
           <div className="bg-primary p-10 rounded-3xl border border-white space-y-4" data-aos="fade-up" data-aos-delay="300">
             <h3
-              className="text-white text-2xl font-bold">
+              className="text-white text-xl font-bold">
               Nuestra visión
             </h3>
             <p
-              className="text-white">
+              className="text-white text-sm">
               Nuestra visión es ser una empresa líder en el desarrollo de software, con un enfoque en la usabilidad y la eficiencia.
             </p>
           </div>
           <div className="bg-primary p-10 rounded-3xl border border-white space-y-4" data-aos="fade-up" data-aos-delay="400">
             <h3
-              className="text-white text-2xl font-bold">
+              className="text-white text-xl font-bold">
               Nuestros enfoque
             </h3>
             <p
-              className="text-white">
+              className="text-white text-sm">
               Nuestros enfoque es crear software de calidad para nuestros clientes, con un enfoque en la usabilidad y la eficiencia.
             </p>
           </div>

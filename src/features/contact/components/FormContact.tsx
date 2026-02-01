@@ -22,10 +22,10 @@ export default function FormContact() {
         <span className="bg-black text-white px-5 py-2 rounded-full font-semibold shadow-lg tracking-wider text-base mb-2 inline-block">
           Contáctenos
         </span>
-        <h2 className="text-white text-3xl md:text-5xl font-bold text-center">
+        <h2 className="text-white text-3xl font-bold text-center">
           Comuníquese con nosotros
         </h2>
-        <p className="text-gray-300 md:text-lg max-w-2xl text-center">
+        <p className="text-gray-300 text-base max-w-2xl text-center">
           ¿Tienes preguntas o deseas hablar más sobre tu proyecto? Completa el formulario o usa las opciones de contacto para ponerte en contacto con nuestro equipo.
         </p>
       </div>
