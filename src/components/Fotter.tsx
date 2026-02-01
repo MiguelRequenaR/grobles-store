@@ -59,7 +59,7 @@ export default function Fotter() {
           <img src="/grobleStoreWhite.png" alt="logo" className="md:w-fit h-20"/>
         </div>
         <p
-        className="text-white text-center md:text-left md:text-lg">Un rama de Grobles Studio, dedicada a la creación sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
+        className="text-white text-center md:text-left md:text-lg mx-4 md:mx-0">Un rama de Grobles Studio, dedicada a la creación sitios web para tu negocio, modernas, personalizadas y optimizadas.</p>
         <div
         className="pt-5">
           <h2
