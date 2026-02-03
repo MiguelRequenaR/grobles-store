@@ -88,7 +88,7 @@ export default function NavBar() {
                   key={link.label}
                   className={`
                     transition-colors duration-500 cursor-pointer 
-                    hover:text-secondary 
+                    hover:text-secondary uppercase
                     ${activeIndex === idx ? 'text-secondary' : ''}
                   `}
                   onClick={() => handleNavigation(link, idx)}

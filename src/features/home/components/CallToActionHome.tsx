@@ -7,7 +7,7 @@ export default function CallToActionHome() {
       <div
       className="max-w-7xl mx-auto">
         <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-primary p-10 rounded-3xl border border-white">
+        className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-primary p-10 rounded-3xl border border-white uppercase">
           <div
           className="space-y-4">
             <h3
@@ -49,7 +49,7 @@ export default function CallToActionHome() {
                 className="w-full border border-white rounded-full px-4 py-2 text-white"
               />
               <button
-                className="bg-white text-primary border border-transparent px-4 py-2 rounded-full whitespace-nowrap cursor-pointer hover:bg-transparent hover:text-white hover:border-white transition-all duration-500"
+                className="bg-white text-primary border border-transparent px-4 py-2 rounded-full whitespace-nowrap cursor-pointer hover:bg-transparent hover:text-white hover:border-white transition-all duration-500 uppercase"
               >
                 Únete ahora
               </button>

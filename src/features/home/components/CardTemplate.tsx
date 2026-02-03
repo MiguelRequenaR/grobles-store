@@ -60,11 +60,11 @@ export default function CardTemplate() {
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 rounded-2xl" />
               </div>
               <div className="flex items-center justify-between">
-                <h2 className="text-white text-lg font-bold group-hover:text-secondary transition-colors duration-300">{template.name}</h2>
+                <h2 className="text-white text-lg font-bold group-hover:text-secondary transition-colors duration-300 uppercase">{template.name}</h2>
                 <span className="text-white text-base font-bold bg-primary border border-white px-2 py-1 rounded-full group-hover:border-secondary group-hover:text-secondary transition-colors duration-300">S/.{template.price}</span>
               </div>
               <p 
-              className="text-white text-base">{template.description}</p>
+              className="text-white text-base uppercase">{template.description}</p>
             </Link>
           ))}
         </div>

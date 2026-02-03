@@ -16,16 +16,16 @@ export default function FormContact() {
     e.currentTarget.reset();
   }
   return (
-    <main className="py-20 px-4 md:px-0 max-w-2xl mx-auto">
+    <main className="py-20 px-4 md:px-0 max-w-3xl mx-auto">
       {/* Encabezado */}
       <div className="text-center flex flex-col items-center space-y-5 pt-20" data-aos="fade-up">
-        <span className="bg-black text-white px-5 py-2 rounded-full font-semibold shadow-lg tracking-wider text-base mb-2 inline-block">
+        <span className="bg-black text-white px-5 py-2 rounded-full font-semibold shadow-lg tracking-wider text-base mb-2 inline-block uppercase">
           Contáctenos
         </span>
-        <h2 className="text-white text-3xl font-bold text-center">
+        <h2 className="text-white text-2xl font-bold text-center uppercase">
           Comuníquese con nosotros
         </h2>
-        <p className="text-gray-300 text-base max-w-2xl text-center">
+        <p className="text-gray-300 text-base max-w-2xl text-center uppercase">
           ¿Tienes preguntas o deseas hablar más sobre tu proyecto? Completa el formulario o usa las opciones de contacto para ponerte en contacto con nuestro equipo.
         </p>
       </div>
@@ -36,7 +36,7 @@ export default function FormContact() {
             <Mail className="w-9 h-9 text-secondary" />
           </div>
           <div>
-            <h4 className="text-lg font-bold text-white mb-2">Correo Electrónico</h4>
+            <h4 className="text-sm font-bold text-white mb-2 uppercase">Correo Electrónico</h4>
             <a
               href="mailto:contacto@groblestudio.com"
               className="text-gray-200 hover:text-secondary transition-colors duration-300 underline break-all"
@@ -50,7 +50,7 @@ export default function FormContact() {
             <Phone className="w-9 h-9 text-secondary" />
           </div>
           <div>
-            <h4 className="text-lg font-bold text-white mb-2">Llámenos</h4>
+            <h4 className="text-sm uppercase font-bold text-white mb-2">Llámenos</h4>
             <a
               href="tel:+51901617809"
               className="text-gray-200 hover:text-secondary transition-colors duration-300 underline"
@@ -66,7 +66,7 @@ export default function FormContact() {
         className="flex flex-col gap-6 bg-black/60 rounded-2xl p-8 shadow-xl" data-aos="fade-up" data-aos-delay="200">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col gap-1 flex-1">
-            <label htmlFor="name" className="font-semibold text-white mb-1">
+            <label htmlFor="name" className="font-semibold uppercase text-white mb-1">
               Nombre
             </label>
             <input
@@ -80,7 +80,7 @@ export default function FormContact() {
             />
           </div>
           <div className="flex flex-col gap-1 flex-1">
-            <label htmlFor="email" className="font-semibold text-white mb-1">
+            <label htmlFor="email" className="font-semibold uppercase text-white mb-1">
               Correo electrónico
             </label>
             <input
@@ -95,7 +95,7 @@ export default function FormContact() {
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <label htmlFor="message" className="font-semibold text-white mb-1">
+          <label htmlFor="message" className="font-semibold uppercase text-white mb-1">
             Mensaje
           </label>
           <textarea
