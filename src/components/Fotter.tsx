@@ -67,17 +67,17 @@ export default function Fotter() {
           <ul
           className="grid grid-cols-2 md:grid-cols-3 gap-4 bg-secondary px-5 py-3 rounded-3xl mt-5">
             <li
-            className="hover:text-white hover:bg-primary px-2 py-1 rounded-full transition-all duration-500 text-center cursor-pointer uppercase"
+            className="hover:text-white hover:bg-primary px-2 py-1 rounded-full transition-all duration-500 text-center cursor-pointer uppercase text-sm md:text-base"
             onClick={handleNavigateToHome}>
               Templates
             </li>
             <li
-            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer uppercase"
+            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer uppercase text-sm md:text-base"
             onClick={handleNavigateToAbout}>
               Nosotros
             </li>
             <li
-            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer uppercase"
+            className="hover:text-white transition-all duration-500 hover:bg-primary px-2 py-1 rounded-full text-center cursor-pointer uppercase text-sm md:text-base"
             onClick={handleNavigateToContact}>
               Contacto
             </li>

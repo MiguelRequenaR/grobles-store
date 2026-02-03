@@ -7,13 +7,13 @@ export default function CallToActionHome() {
       <div
       className="max-w-7xl mx-auto">
         <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-primary p-10 rounded-3xl border border-white uppercase">
+        className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-primary p-5 md:p-10 rounded-3xl border border-white uppercase">
           <div
           className="space-y-4">
             <h3
             className="text-white text-2xl font-bold">Manténgase actualizado con nosotros</h3>
             <p
-            className="text-gray-400 text-base">
+            className="text-gray-400 text-sm md:text-base">
               Forma parte de nuestra comunidad y mantente actualizado con noticias exclusivas.
             </p>
             <div>
@@ -22,21 +22,21 @@ export default function CallToActionHome() {
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-base">Lanzamiento de nuevas sitios web</span>
+                className="text-white text-sm md:text-base">Lanzamiento de nuevas sitios web</span>
               </div>
               <div
               className="flex items-center gap-2">
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-base">Descuentos y ofertas</span>
+                className="text-white text-sm md:text-base">Descuentos y ofertas</span>
               </div>
               <div
               className="flex items-center gap-2">
                 <CheckCircle
                 className="text-secondary" />
                 <span 
-                className="text-white text-base">Actualizaciones importantes</span>
+                className="text-white text-sm md:text-base">Actualizaciones importantes</span>
               </div>
             </div>
           </div>

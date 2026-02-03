@@ -124,8 +124,8 @@ export default function TemplateDetail() {
               />
             </div>
             <div className="bg-primary border border-white/30 rounded-3xl p-6 space-y-3">
-              <h4 className="text-white text-lg font-semibold">Acerca de esta plantilla</h4>
-              <p className="text-gray-300 text-base leading-relaxed">
+              <h4 className="text-white text-lg font-semibold uppercase">Acerca de esta plantilla</h4>
+              <p className="text-gray-300 text-base leading-relaxed uppercase">
                 {template.infoTemplate}
               </p>
             </div>
@@ -141,13 +141,13 @@ export default function TemplateDetail() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-white text-4xl font-bold leading-tight">
+              <h1 className="text-white text-xl md:text-4xl font-bold leading-tight uppercase">
                 {template.name}
               </h1>
-              <p className="text-gray-400 text-lg">
+              <p className="text-gray-400 text-base md:text-lg uppercase">
                 {template.description}
               </p>
-              <p className="text-gray-300 text-base leading-relaxed">
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed uppercase">
                 {template.fullDescription}
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function TemplateDetail() {
                 href={template.previewUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full bg-transparent border-2 border-white text-white px-6 py-4 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-semibold text-base"
+                className="flex items-center justify-center gap-2 w-full bg-transparent border-2 border-white text-white px-6 py-4 rounded-full uppercase hover:bg-white hover:text-black transition-all duration-300 font-semibold text-sm md:text-base"
               >
                 Vista previa en vivo
                 <ExternalLink className="w-5 h-5" />
@@ -165,19 +165,19 @@ export default function TemplateDetail() {
 
               <button
                 onClick={handleBuyClick}
-                className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-base cursor-pointer"
+                className="flex items-center border border-transparent justify-center gap-2 w-full bg-white text-black px-6 py-4 rounded-full hover:bg-transparent hover:text-white hover:border-white transition-all duration-300 font-semibold text-sm md:text-base cursor-pointer uppercase"
               >
                 Comprar ahora - S/.{template.price}
               </button>
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-white text-xl font-bold">Caso de uso</h3>
+              <h3 className="text-white text-lg md:text-xl font-bold uppercase">Caso de uso</h3>
               <div className="flex flex-wrap gap-3">
                 {template.useCases.map((useCase, index) => (
                   <span
                     key={index}
-                    className="bg-primary border border-white/30 text-white px-6 py-2 rounded-full text-sm"
+                    className="bg-primary border border-white/30 text-white px-6 py-2 uppercase rounded-full text-sm"
                   >
                     {useCase}
                   </span>

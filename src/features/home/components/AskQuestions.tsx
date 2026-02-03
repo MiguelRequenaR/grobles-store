@@ -124,7 +124,7 @@ export default function AskQuestions() {
                   >
                     <div className="px-3 md:px-4 pb-3 md:pb-4">
                       <hr className="mb-2 md:mb-3 text-gray-400 border-t-2 border-dashed" />
-                      <p className="text-white text-base uppercase">
+                      <p className="text-white text-sm md:text-base uppercase">
                         {question.answer}
                       </p>
                     </div>
