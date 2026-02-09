@@ -151,7 +151,7 @@ export default function NavBar() {
         
         {/* Navegación móvil */}
         <nav className="flex-1 flex flex-col items-center justify-center px-6">
-          <ul className="flex flex-col gap-8 text-white text-2xl font-semibold text-center">
+          <ul className="flex flex-col gap-8 text-white text-2xl font-semibold text-center uppercase">
             {links.map((link, idx) => (
               <li
                 key={link.label}
